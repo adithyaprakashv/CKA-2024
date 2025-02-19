@@ -3,9 +3,9 @@ kind: Pod
 metadata:
   labels:
     app: test
-    name: redis
+    name: redis-pod
 spec:
   containers:
-  - image: rediss
+  - image: redis
     name: redis
     
