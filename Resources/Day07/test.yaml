@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: redis  # Name of the pod
+  name: redis  
   labels:
     app: test
 spec:
   containers:
-  - name: redis  # Container name
-    image: redis  # Corrected image name (official Redis image)
+  - name: redis  
+    image: redis  
